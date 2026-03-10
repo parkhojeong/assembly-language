@@ -6,7 +6,11 @@
   - aws ec2 [Ubuntu 22.04 with GUI Desktop by SilverLining.Cloud GmbH](https://us-east-1.console.aws.amazon.com/marketplace/search/listing/prodview-e4dtm6b2qku7q?sr=0-3&ref_=beagle&applicationId=AWS-EC2-Console)
     - remote access on gui:
       - target address: vnc://public-ip:5901   
-      - Mac os: finder - Go - Connect to Server(cmd + k)
+      - Mac os
+        - access: finder - Go - Connect to Server(cmd + k)
+      - Windows app on Mac os(App Store)
+        - access: add pc - enter your public-ip > enter password
+        - setting for copy & paste by command:  Settings > Navigate to Keyboard > Click on the drop down "Either Command key" and select "Left Command Key"
     - The initial password for both RDP and VNC is the instance ID of the server. Login with the username "ubuntu".
 - sasm
   - dependency list: https://github.com/Dman95/SASM/blob/master/README.txt
