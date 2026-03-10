@@ -13,7 +13,8 @@
         - access: finder - Go - Connect to Server(cmd + k)
       - Windows app on Mac os(App Store)
         - access: add pc - enter your public-ip > enter password
-        - setting for copy & paste by command:  Settings > Navigate to Keyboard > Click on the drop down "Either Command key" and select "Left Command Key"
+        - setting for copy & paste by command: Settings > Navigate to Keyboard > Click on the drop down "Either Command key" and select "Left Command Key"
+          - same issue: https://www.reddit.com/r/mac/comments/1hna7ok/issues_with_clipboard_on_windows_app_rdp_client/ 
     - The initial password for both RDP and VNC is the instance ID of the server. Login with the username "ubuntu".
 - sasm
   - dependency list: https://github.com/Dman95/SASM/blob/master/README.txt
