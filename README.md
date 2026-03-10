@@ -4,6 +4,9 @@
 
 - ubuntu 22.04 x64
   - aws ec2 [Ubuntu 22.04 with GUI Desktop by SilverLining.Cloud GmbH](https://us-east-1.console.aws.amazon.com/marketplace/search/listing/prodview-e4dtm6b2qku7q?sr=0-3&ref_=beagle&applicationId=AWS-EC2-Console)
+    - trouble shooting
+      - when remote access is active, zoom in sceen is appeared not full screen. and remote screen is moved continuously to follow cursor
+        - solution: reboot ec2 instance 
     - remote access on gui:
       - target address: vnc://public-ip:5901   
       - Mac os
